@@ -1,0 +1,82 @@
+/* general settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1C1D;
+    text-decoration: none;
+}
+
+body{
+    background: #1a233a;
+}
+
+/* ul and li  styling */
+
+.ul-style{
+    padding-top:  25px;
+    padding-right: 40px;
+    margin-right: 15%;
+}
+
+.ul-navigation-element{
+    margin: -80px 0px 0px -20px !important;
+}
+
+.li-style{
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    margin-bottom: 15px;
+    list-style-type:disc!important;
+    margin-right:15px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+/* styling the h1 */
+
+.info{
+    font-family: 'Tajawal', sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.all-item{
+    direction: rtl;
+}
+
+.first-element{
+    padding-top: 0px;
+}
+
+.ul-navigation-element{
+    margin: 30px 0px 0px 20px;
+}
+
+/* text designing h2 and div itself */
+/* text aligning and styling */
+
+.text{
+    background: white;
+    height: 500px;
+}
+
+.text-itself{
+    background: transparent;
+    padding: 250px 0 0 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.more-paddingin{
+    padding-bottom: 35px;
+}
+
+.li-style{
+    margin-left: 281px !important;
+}

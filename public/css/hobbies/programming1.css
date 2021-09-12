@@ -1,0 +1,215 @@
+
+/* styles for a adding hobby */
+
+.adding-button-style{
+    color: #2966ce !important;
+}
+
+.adding-button-style:hover{
+    color:#2250a1 !important;
+}
+
+/* content styles */
+.content{
+    margin: 40px auto 0;
+  }
+
+/* h2 before the actual content */
+.h2-div-1{
+    padding: 50px 50px 10px 50px ;
+}
+
+.my-h2-participate{
+    color:white;
+    text-align: right;
+    font-size: 30px;
+}
+
+/*  styling add request el */
+/* the actual content */
+
+.new-request{
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 550px;
+    height: 300px;
+    z-index: 5;
+    border-radius: 15px;
+    font-family: 'Tajawal', sans-serif;
+    display: none;
+    animation:drop 1s ease forwards;
+    
+}
+
+.my-h2{
+    background: transparent;
+    text-align: center;
+    color: #c14e0b;
+    padding-top: 20px;
+
+}
+
+.image{
+    background: transparent;
+    margin-left: 30%;
+    padding-top: 46px;
+}
+
+@keyframes drop {
+    0%{top:10%}
+    100%{top:40%}
+}
+
+.submit{
+    background: black;
+    width: 150px;
+    outline: 0;
+    border: 2px solid  white;
+    border-radius: 15px;
+    transition: all .35s;
+    color: white;
+    position: relative;
+    outline: 0;
+    padding: 8px;
+    margin-top: 21px;
+    margin-left: 35%;
+}
+
+.text2{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none !important;
+    background: transparent;
+}
+
+
+.submit:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all .35s;
+  }
+  .submit:hover:after{
+      background: #c14e0b;
+      width: 100%;
+      border-radius: 15px;
+  }
+
+.big-element{
+    background: transparent;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hobbies-section{
+    background: #733835;
+    width: 90%;
+    height: 10%  !important;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.nametest{
+    color: white;
+    text-align: right;
+    font-family: 'Tajawal', sans-serif;
+    background: transparent !important;
+    margin: -12px 0 0 0;
+}
+.icon{
+    color: white;
+    margin: -29px 0px 0px -51px;
+    position: absolute;
+    background: transparent !important;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.request-list .votes{
+    margin: -25px 0px 0px 31px;
+    background: transparent;
+    color: white;
+    position: relative;
+    top: -23px !important;
+}
+
+.third-el{
+    background-color: white;
+}
+
+.first-item{
+    color: black;
+}
+
+.input-field{
+    margin: 25px  5px 5px  185px  !important;
+    direction: rtl;
+    outline: 0;
+    border: 0;
+    border-bottom: #c14e0b;
+    padding: 5px;
+    color: black;
+    background: transparent;
+    border-bottom: 1px solid #c14e0b;
+}
+
+.blur{
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.new-request.open{
+    display: block;
+  }
+
+form{
+    background: white;
+}
+
+/* error edit */
+.error{
+    padding: 15px;
+    color: red;
+    background: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.link-in{
+    cursor: pointer;
+    color: white;
+    background: transparent;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: -24px 0 0 0;
+    text-align: center;
+}
+
+.notification{
+    padding: 33px 0 0 0;
+    color: white;
+    border-radius: 29px;
+    background: red;
+    font-size: 22px;
+    width: 350px;
+    text-align: center;
+    height: 80px;
+    display: none;
+}
+
+.active{
+    display:block;
+    margin-left: 40%;
+}

@@ -1,0 +1,178 @@
+.section1{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* auth styles */
+.modal{
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    margin: auto auto;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 19px rgba(0,0,0,0.1);
+    text-align: center;
+    z-index: 2;
+  }
+  .auth{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .auth.open{
+    display: block;
+  }
+  .auth a{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .auth .modal{
+    display: none;
+  }
+  .auth .modal.active{
+    display: block;
+  }
+  
+  form, div, a, h2,form, input, p, button, label {
+    background: var(--bg);
+  }
+
+
+h2{
+  font-family: 'Tajawal', sans-serif;
+}
+
+
+input{
+    padding: 3px;
+    display: block;
+    margin-left: 31%;
+    margin-top: 15px;
+    outline: 0;
+    border-bottom:2px solid rgb(80 80 165) !important;
+    border: 0;
+    direction: rtl;
+}
+
+button, form, div-2, a { 
+    margin-top: 15px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+div-2, a {
+    margin-bottom: 25px;
+}
+p{
+    margin-top: 15px;
+    color: red;
+}
+
+a{
+    color: #c14e0b;
+}
+
+div-2{
+    color: #2250a1;
+}
+h2{
+    color: black;
+}
+
+
+button{
+  margin: 19px 25px 0px 0px;
+    width: 150px;
+    padding: 5px;
+    outline: 0;
+    border: 2px solid  black;
+    border-radius: 15px;
+    transition: all .35s;
+    background: black;
+    color: white;
+    position: relative;
+    
+}
+.text{
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-decoration: none !important;
+}
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all .35s;
+}
+button:hover:after{
+    background: #c14e0b;
+    width: 100%;
+    border-radius: 15px;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+.logo-nextTo-my-form{
+  width: 200px;
+  height: 200px;
+}
+
+.spectrum-Icon spectrum-Icon--sizeS SocialButton-Icon{
+  background: transparent;
+}
+
+.edit-no-02{
+  background: aliceblue;
+  border-radius: 7px;
+  float: right;
+  height: 600px;
+  width: 550px;
+  margin: -40px 200px 0px 0px;
+}
+
+.email-n-01{
+  border: 0 0 1px solid rgb(37, 3, 3) 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  margin-left: 33%;
+}
+
+.just-element{
+  margin: 30px 0px 0px 130px;
+  border: 1px solid #cf7359;
+  width: 222px;
+}
+
+.just-element-2{
+  font-size: 23px;
+  margin: -12px 0px 0px 226px;
+  width: 32px;
+  height: 12px;
+  background: aliceblue;
+}
+
+.voting-text{
+    color: white;
+    margin: 214px 0px 0px 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+}
+
+.my-item{
+  display: flex;align-items: center
+}

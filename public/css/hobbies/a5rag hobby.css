@@ -1,0 +1,207 @@
+.more-styling-in-header{
+    margin:0px 19px 0px 0px !important ; 
+    visibility: visible;
+}
+
+.card-body{
+    height: 400px;
+    margin: 122px 0 0 0;
+    border-radius: 24px;
+    background: #1A233A;
+    direction: rtl;
+    width: 1000px;
+    margin-left: 20%;
+}
+
+
+.my-btn-is-here{
+    font-family: 'Tajawal';
+    padding: 12px;
+    border: 0;
+    background: #1e234a;
+    margin: 0px 27px 0px 0px;
+    float: right;
+    color: white;
+    outline:0;
+}
+
+.row gutters{
+    background: transparent;
+}
+
+.div-no-1{
+    background: #1A233A;
+}
+
+.info{
+    font-size: 19px;
+    float: right;
+    background: #1A233A;
+    margin-top: 11px;
+}
+
+div-no-2{
+    direction: rtl;
+    background: #1A233A;
+}
+
+.my-select{
+    font-size: 15px;
+    color: white;
+}
+
+.edit{
+    width: 433px;
+    color: #6c757d;
+}
+
+.my-second-bg{
+    background: #1A233A;
+}
+
+.my-third-bg{
+    background: transparent;
+}
+
+.input-style{
+    width: 443px;
+    margin: 0 10px 0px 0;
+}
+.col-style{
+    background-color: #212967;
+    margin: 10px;
+    border-radius: 15px;
+    height: 530px;
+    padding: 10px;
+}
+
+.img-style{
+    margin: 4px 6px 0px 0;
+    border-radius: 50%;
+    width: 40px;
+    float: right;
+}
+
+.h5-style{
+    padding: 10px 8px 0px 0;
+    background: transparent;
+    color: white;
+    float: right;
+}
+
+.date-style{
+    font-weight: 600;
+    color: #0DFCE4;
+    margin: 36px -70px 0px 0px;
+    background: transparent;
+    float: right;
+    font-size: 13px;
+    font-family: 'Tajawal';
+}
+
+.uploaded-img{
+    margin: 70px 0 0 250px;
+}
+
+.arrow-style{
+    margin: 43px 0px 0px 47px;
+    background: transparent;
+    color: #F5003C;
+    font-size: 30px;
+}
+
+.vote-me{
+    color: white;
+    background: transparent;
+    margin: -38px 0 0 86px;
+    font-weight: 600;
+    font-family: 'Tajawal';
+    font-size: 22px;
+}
+
+.text-contains-link{
+    font-weight: 700;
+    font-family: 'Tajawal';
+    color: #F5003C;
+    background: transparent;
+    float: right;
+    direction: rtl;
+    margin: -23px 4px 0 0;
+}
+
+.my-span{
+    font-family: 'Poppins';
+    font-weight: 300;
+    background: transparent;
+    color: #0DFCE4;
+}
+
+.card-2-body{
+    z-index: 2;
+    position: relative;
+    display: none;
+    background: transparent;
+}
+
+.second-item{
+    font-weight: 600;
+}
+
+.close{
+    display: none;
+  }
+  
+  .open{
+    display: block;
+  }
+
+.third-el{
+    height: 500px;
+}
+
+body{
+    background: #1d1c1d;
+}
+
+.number{
+    margin-left: 6px;
+    background: transparent;
+    color: #0DFCE4;
+    margin-top: -29px;
+    font-size: 21px;
+    font-family: cursive;
+}
+
+.card-edit-01{
+    margin: 0 0 0 64px;
+    width: 450px;
+    border-radius: 24px;
+    background: #1A233A;
+    direction: rtl;
+}
+
+.edit-message{
+    float: right;
+    background: #1A233A;
+}
+
+.lovely-bg{
+    background: #1A233A
+}
+
+.email-edit{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 54px;
+}
+
+.link-proj-in-street{
+    float: right;
+    background: #1A233A;
+    margin-right: 10px;
+}
+
+
+.arrow-style{
+    cursor: pointer;
+}

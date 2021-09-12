@@ -1,0 +1,14 @@
+/* all styling goes here! */
+
+/* styling the logo because of different pixels due to different content and not using and plugin */
+/* overlay the styling  --> logo... then the ul ... then the li --> of the header()*/
+.logo-img{
+    margin: -22px -20px -7px 1767px;
+}
+.ul-navigation-element{
+    margin: -85px 0px 0px 25px;
+}
+
+.li-header-element{
+    margin: 0px 25px 0px 0px;
+}

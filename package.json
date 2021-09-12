@@ -1,0 +1,13 @@
+{
+  "name": "vote-project2",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  }
+}

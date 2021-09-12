@@ -1,0 +1,117 @@
+/* general styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1C1D;
+    text-decoration: none;
+  }
+
+/* styles for a adding hobby */
+
+.adding-button-style{
+    color: #2966ce !important;
+}
+
+.adding-button-style:hover{
+    color:#2250a1 !important;
+}
+
+/* content styles */
+.content{
+    margin: 40px auto 0;
+  }
+  
+  /* request list styles */
+  .request-list li{
+    padding: 20px;
+    margin: 10px auto;
+    list-style-type: none;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+  }
+  .request-list .votes{
+    position: relative;
+    top: -5px;
+    z-index: 0;
+  }
+  .request-list .upvote{
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .request-list .upvote:active{
+    color: white;
+    background: black;
+  }
+
+  /* styling the body of hobbies section */
+.h1-hobby{
+    text-align: right;
+    padding: 0 30px 0 0;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+
+
+.hobbies-section{
+    height: 700px;
+}
+
+/* now it is just a number because there is no content but if there is it will be resized  */
+
+
+/* section of sharing text in the top after header */
+
+.sharing-div{
+    height: 500px;
+    background-color: white;
+}
+
+.sharing-hobby-h1{
+    color: black;
+    text-align: center;
+    padding-top: 235px;
+    background: transparent;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 35px;
+}
+/* section two edit (hobbies section) */
+
+.section-2{
+  background-color: #1D1C1D;
+}
+
+.li-2-content{
+  color: white;
+}
+
+.el-li{
+  color: rgb(31 101 224);
+}
+/* change color of arrow */
+.my-1-arrow{
+  color: rgb(31 101 224);
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}

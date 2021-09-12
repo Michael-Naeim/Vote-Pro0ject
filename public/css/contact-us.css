@@ -1,0 +1,158 @@
+/* styling only all contact form */
+.main-div{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.all-elements{
+    background: transparent;
+}
+
+.fname-div{
+    background: transparent;
+}
+
+.fname{
+    background: transparent;
+}
+
+.email-div{
+    background: transparent;
+}
+
+.email{
+    background: transparent;
+}
+
+.subject-div{
+    background: transparent;
+}
+
+.subject{
+    background: transparent;
+}
+
+.message-div{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.message{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    margin-right: 18px;
+    width: 181px;
+    min-height: 45px;
+    direction: rtl;
+    padding: 8px;
+    resize: vertical;
+}
+label{
+    background: transparent;
+    color: white;
+}
+
+.contact-us{
+    background: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+input{
+    direction: rtl;
+    padding: 5px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #c14e0b;
+    margin: 10px;
+    color: white;
+}
+
+.submit-button-div{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button{
+    margin-top: 20px;
+    padding: 10px;
+    background: white;
+}
+
+textarea{
+    border: 1px solid white;
+    color: white;
+}
+
+button{
+    width: 150px;
+    padding: 5px;
+    outline: 0;
+    border: 2px solid  white;
+    border-radius: 15px;
+    transition: all .35s;
+    color: white;
+    position: relative;
+    outline: 0;
+    background: transparent;
+    
+}
+.text2{
+    position: relative;
+    z-index: 2;
+    color: black;
+    text-decoration: none !important;
+    background: transparent;
+}
+
+button:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: black;
+  transition: all .35s;
+}
+button:hover:after{
+    background: #c14e0b;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.alert{
+    background-color: #2250a1;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    display: none;
+    transition: all 0.3s ease-out;;
+}
+
+/* text aligning and styling */
+
+.text{
+    background: white;
+    height: 500px;
+}
+
+.text-itself{
+    background: transparent;
+    padding: 250px 0 0 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
